@@ -1,0 +1,78 @@
+body{
+	text-align: justify;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 200px;
+}
+
+
+h1{
+	font-family: arial; 
+	font-size: 25px;
+	color: green; 
+}
+
+h2{
+	
+	font-family: arial;  
+	font-size: 20px;	
+	color: green;
+}
+
+
+a{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+a:visited{
+	color:purple;
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active{
+	color:silver;
+}
+
+.nota{
+	opacity: 0.5;	
+}
+
+.passo{
+	font-size: 18px;
+	color:purple;
+}
+
+.numPasso{
+	font-size: 18px;
+	color:purple;
+	background-color: silver;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+a[href^="http"]{
+	padding-left: 18px;
+	background: url(../img/globo.png);
+	background-repeat: no-repeat;
+}
